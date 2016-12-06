@@ -61,7 +61,7 @@ fi
 ACTION="$1"
 
 case $ACTION in
-  apply|destroy|plan|refresh)
+  apply|destroy|plan|refresh|show)
     $ACTION 
     ;;
   ****)
