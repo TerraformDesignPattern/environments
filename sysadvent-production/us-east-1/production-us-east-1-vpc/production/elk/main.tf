@@ -8,7 +8,7 @@ module "ami_image_id" {
 }
 
 module "elk" {
-  source = "git@github.com:TerraformDesignPattern/elk.git"
+  source = "git@github.com:TerraformDesignPattern/elk.git//terraform"
 
   vpc_name = "${module.environment.vpc_name}"
   aws_region = "${module.environment.aws_region}"
