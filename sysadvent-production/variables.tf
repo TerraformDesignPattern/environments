@@ -22,6 +22,6 @@ variable "ssl_arn" {
   default = ""
 }
 
-variable  "public_key" {
+variable "public_key" {
   default = ""
 }
